@@ -1,4 +1,4 @@
-# Week 0 Starting from Scratch
+# Week 0 - Starting from Scratch
 
 [Link to lecture](https://cs50.harvard.edu/x/2025/weeks/0/) \
 [Link to project page](https://cs50.harvard.edu/x/2025/psets/0/) 
