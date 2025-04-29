@@ -31,12 +31,12 @@ However if we want to use additional third-party libraries like the one created 
 **Linking** -> the previous three steps create as many files as libraries used +1 (the one we created), written with 0s and 01, in this step all this files are combined. 
 
 #### Debugging
-printf  \ 
+printf \
 debug50 (debugger available in the real world, not exclusive to CS50)
 
 #### Data types in C
 bool - 1 byte (8 bits) \
-int - 4 bytes (32 bits) \ 
+int - 4 bytes (32 bits) \
 long - 8 bytes (64 bits) \
 float - 4 bytes \
 double - 8 bytes \
