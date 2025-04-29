@@ -4,7 +4,7 @@
 
 ## Notes from lecture
 ### Compiling
-Compilers turns code into 0s and 01s, source code into machine code \
+Compilers turn code into 0s and 01s, source code into machine code \
 When we are using _make-_ in the terminal we're using a compiler \
 A common compiler is **clang**, but it names programs 'a.out' by default \
 So if we use
@@ -14,21 +14,23 @@ we get a program named
 > a.out 
 
 #### Arguments
-Arguments are inputs to a program. Clang supports additional arguments at command line, so we can name out programs. \
+Arguments are inputs to a program. Clang supports additional arguments at command line, so we can name our programs. \
 So if we use
 > clang -o hello hello.c
 
 we get 
 > hello 
 
-However if we want to use additional third-party libraries like the one created by CS50, we need to preinstall it and add an additional argument  
+However, if we want to use additional third-party libraries like the one created by CS50, we need to preinstall it and add an additional argument  
 > clang -o hello hello.c -lcs50
+
+The _l_ from the argument _-lcs50_ stands for _link_.
 
 #### Compiling steps
 **Preprocesing** -> anything that starts with # \
 **Compiling** -> code gets translated from one language (C in this case) to another language called assembly code (which varies between devices e.j. mac, pc, etc.) \
 **Assembling** ->  assembly code gets converted to 0s and 1s \
-**Linking** -> the previous three steps create as many files as libraries used +1 (the one we created), written with 0s and 01, in this step all this files are combined. 
+**Linking** -> the previous three steps create as many files as libraries used +1 (the one we created), written with 0s and 01, in this step all these files are combined. 
 
 #### Debugging
 printf \
