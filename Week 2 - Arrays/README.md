@@ -1,6 +1,6 @@
 # Week 2 - Arrays
 
-[Link to project page](https://cs50.harvard.edu/x/2025/psets/2/)
+[Link to Problem Set 2](https://cs50.harvard.edu/x/2025/psets/2/)
 
 ## Notes from lecture
 ### Compiling
